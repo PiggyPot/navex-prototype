@@ -1,0 +1,92 @@
+{
+    "101": {
+      "id": 101,
+      "balance": 55000,
+      "savingsTarget": 60000,
+      "title": "Summer Holiday",
+      "dateTarget": "2017-03-17T00:00:00.000Z",
+      "depositStartDate": "2016-09-17T00:00:00.000Z",
+      "state": "ACTIVE"
+    },
+    "102": {
+      "id": 102,
+      "balance": 18000,
+      "savingsTarget": 19000,
+      "title": "Car Insurance",
+      "dateTarget": "2017-03-17T00:00:00.000Z",
+      "depositStartDate": "2016-09-17T00:00:00.000Z",
+      "state": "ACTIVE"
+    },
+    "103": {
+      "id": 103,
+      "balance": 5000,
+      "savingsTarget": 10000,
+      "title": "New Phone",
+      "dateTarget": "2017-03-17T00:00:00.000Z",
+      "depositStartDate": "2016-09-17T00:00:00.000Z",
+      "state": "ACTIVE"
+    },
+    "104": {
+      "id": 104,
+      "balance": 60000,
+      "savingsTarget": 60000,
+      "title": "Camping",
+      "dateTarget": "2017-03-17T00:00:00.000Z",
+      "depositStartDate": "2016-09-17T00:00:00.000Z",
+      "state": "COMPLETE"
+    },
+    "105": {
+      "id": 105,
+      "balance": 1000,
+      "savingsTarget": 1000,
+      "title": "Christmas",
+      "dateTarget": "2017-03-17T00:00:00.000Z",
+      "depositStartDate": "2016-09-17T00:00:00.000Z",
+      "state": "COMPLETE"
+    },
+    "106": {
+      "id": 106,
+      "balance": 11100,
+      "savingsTarget": 11100,
+      "title": "Winter Holiday",
+      "dateTarget": "2017-03-17T00:00:00.000Z",
+      "depositStartDate": "2016-09-17T00:00:00.000Z",
+      "state": "ARCHIVED"
+    },
+    "107": {
+      "id": 107,
+      "balance": 11100,
+      "savingsTarget": 11100,
+      "title": "Winter Holiday",
+      "dateTarget": "2017-03-17T00:00:00.000Z",
+      "depositStartDate": "2016-09-17T00:00:00.000Z",
+      "state": "ARCHIVED"
+    },
+    "108": {
+      "id": 108,
+      "balance": 11100,
+      "savingsTarget": 11100,
+      "title": "Winter Holiday",
+      "dateTarget": "2017-03-17T00:00:00.000Z",
+      "depositStartDate": "2016-09-17T00:00:00.000Z",
+      "state": "ARCHIVED"
+    },
+    "109": {
+      "id": 109,
+      "balance": 11100,
+      "savingsTarget": 11100,
+      "title": "Winter Holiday",
+      "dateTarget": "2017-03-17T00:00:00.000Z",
+      "depositStartDate": "2016-09-17T00:00:00.000Z",
+      "state": "ARCHIVED"
+    },
+    "110": {
+      "id": 110,
+      "balance": 11100,
+      "savingsTarget": 11100,
+      "title": "Winter Holiday",
+      "dateTarget": "2017-03-17T00:00:00.000Z",
+      "depositStartDate": "2016-09-17T00:00:00.000Z",
+      "state": "ARCHIVED"
+    }
+}
