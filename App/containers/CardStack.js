@@ -24,11 +24,8 @@ class Header extends Component {
     );
   }
   _back = () => {
-		console.log(props)
 		return (
-			<BackButton
-				onPress={() => {}}
-			/>
+			<BackButton />
 		)
 	}
 
@@ -66,7 +63,6 @@ class CardStack extends React.Component {
 
   render() {
     let { navState } = this.props;
-		console.log('Yep');
     return (
 			<NavigationCardStack
 				navigationState={navState}

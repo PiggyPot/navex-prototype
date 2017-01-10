@@ -1,12 +1,14 @@
 import React from 'react';
 import {TouchableOpacity, Image} from 'react-native';
+import { connect } from 'react-redux';
+import { pop } from '../../../actions/navActions';
 import styles from './styles';
 
-const BackButton = ({callback}) => {
+const BackButton = ({ pop }) => {
   return (
     <TouchableOpacity
     style={[styles.backButton]}
-    onPress={() => callback}
+    onPress={() => pop()}
     accessibilityLabel="Go back"
     >
     <Image source={require('./img/back-arrow.png')} style={[styles.settingsButtonImage]}/>
@@ -18,4 +20,15 @@ BackButton.propTypes = {
   callback: React.PropTypes.func
 };
 
-export default BackButton;
+function mapStateToProps () { return {} }
+
+function mapDispatchToProps (dispatch) {
+  return {
+    pop: () => dispatch(pop())
+  }
+}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(BackButton);
